@@ -995,7 +995,3 @@ mobwrite.unshare = function(var_args) {
     }
   }
 };
-
-// Export the mobwrite global variable so that it survives Google's JS compiler.
-window['mobwrite'] = mobwrite;
-
